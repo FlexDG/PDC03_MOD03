@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD3.activity1">
+    <ContentPage.Content>
+        <StackLayout Margin="10" Orientation="Vertical">
+            <Label Text="WELCOME TO ACTIVITY 1!" TextColor="Black" HorizontalTextAlignment="Center" TextTransform="Uppercase" BackgroundColor="Pink" HorizontalOptions="Fill"/>
+            <BoxView Color="#FC94AF" HeightRequest="100"/>
+          
+            <BoxView Color="pink" HeightRequest="100"/>
+            <BoxView Color="HotPink" HeightRequest="100"/>
+            <BoxView Color="#FEC5E5" HeightRequest="100"/>
+            <BoxView Color="#FE7F9C" HeightRequest="100"/>
+            <BoxView Color="#F2B8C6" HeightRequest="100"/>
+
+
+            <StackLayout Margin="10" Orientation="Horizontal">
+              
+                <BoxView Color="pink" HeightRequest="30"/>
+                <BoxView Color="HotPink" HeightRequest="30"/>
+                <BoxView Color="#FEC5E5" HeightRequest="30"/>
+                <BoxView Color="#FE7F9C" HeightRequest="30"/>
+                <BoxView Color="#F2B8C6" HeightRequest="30"/>
+                <BoxView Color="pink" HeightRequest="30"/>
+                <BoxView Color="HotPink" HeightRequest="30"/>
+                <BoxView Color="#FEC5E5" HeightRequest="30"/>
+      
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD3.activity3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    
+                </Grid.ColumnDefinitions>
+
+
+                <BoxView Color="LightBlue"/>
+                <Label Text="Grid" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <BoxView Grid.Column="1" Color="Beige"/>
+                <Label Grid.Column="1" FontSize="Large" Text="Views" HorizontalOptions="Center" VerticalOptions="Center"/>
+                
+                <BoxView Grid.Row="1" Color="LightGreen"/>
+                <Label Grid.Row="1" Text="AbsoluteLayout" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+                <BoxView Grid.Column="1" Grid.Row="1" Color ="LightCoral"/>
+                <Label Grid.Column="1"  Grid.Row="1" Text="RelativeLayout" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <BoxView Grid.Column="1" Grid.Row="2" Color ="LightSteelBlue"/>
+                <Label Grid.Column="1"  Grid.Row="2" FontSize="Large" Text="Xamarin" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+
+                <BoxView Grid.Column="0" Grid.Row="2" Color ="Honeydew"/>
+                <Label Grid.Column="0"  Grid.Row="2" FontSize="Large" Text="Frame" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+                <BoxView Grid.Column="0" Grid.Row="3" Color ="Magenta"/>
+                <Label Grid.Column="0"  Grid.Row="3" Text="Embedd" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+
+                <BoxView Grid.Column="1" Grid.Row="3" Color ="DarkTurquoise"/>
+                <Label Grid.Column="1"  Grid.Row="3" Text="ContentPage" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <BoxView Grid.Column="1" Grid.Row="4" Color ="LightGoldenrodYellow"/>
+                <Label Grid.Column="1"  Grid.Row="4" Text="Method" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <BoxView Grid.Column="0" Grid.Row="4" Color ="Yellow"/>
+                <Label Grid.Column="0"  Grid.Row="4" Text="Debug" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+                <BoxView Grid.ColumnSpan="2" Grid.Row="5" Color ="Peru"/>
+                <Label Grid.ColumnSpan="2"  FontSize="Large" Grid.Row="5" Text="Emulator" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <BoxView Grid.ColumnSpan="2" Grid.Row="6" Color ="LightGray"/>
+                <Label Grid.ColumnSpan="2"  FontSize="Large" Grid.Row="6" Text="Layout" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <BoxView Grid.ColumnSpan="2" Grid.Row="7" Color ="LightCyan"/>
+                <Label Grid.ColumnSpan="2"  FontSize="Large" Grid.Row="7" Text="HorizontalOptions" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <BoxView Grid.ColumnSpan="2" Grid.Row="8" Color ="PaleGreen"/>
+                <Label Grid.ColumnSpan="2"  FontSize="Large" Grid.Row="8" Text="VerticalOptions" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+                <BoxView Grid.Column="0" Grid.Row="9" Color ="IndianRed"/>
+                <Label Grid.Column="0"  Grid.Row="9" Text="GridRow" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+                <BoxView Grid.Column="1" Grid.Row="9" Color ="LightSalmon"/>
+                <Label Grid.Column="1"  Grid.Row="9" Text="GridColumn" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <BoxView Grid.Column="0" Grid.Row="10" Color ="Bisque"/>
+                <Label Grid.Column="0"  Grid.Row="10" Text="BoxView" HorizontalOptions="Center" VerticalOptions="Center"/>
+                
+                <BoxView Grid.Column="1" Grid.Row="10" Color ="Tomato"/>
+                <Label Grid.Column="1"  Grid.Row="10" Text="Color" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                <BoxView Grid.Column="0" Grid.Row="11" Color ="RosyBrown"/>
+                <Label Grid.Column="0"  Grid.Row="11" Text="Label" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+                <BoxView Grid.Column="1" Grid.Row="11" Color ="PaleVioletRed"/>
+                <Label Grid.Column="1"  Grid.Row="11" Text="Header" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+                <BoxView Grid.ColumnSpan="2" Grid.Row="12" Color ="Plum"/>
+                <Label Grid.ColumnSpan="2"  FontSize="Large" Grid.Row="12" Text="UserInterface" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

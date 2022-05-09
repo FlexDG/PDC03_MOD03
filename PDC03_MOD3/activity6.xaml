@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD3.activity6" BackgroundColor ="#E8E2D7">
+    <ContentPage.Content>
+        <StackLayout> 
+            <RelativeLayout>
+                <BoxView x:Name="Boxview1" Color="#FCF6EB" RelativeLayout.WidthConstraint=
+                         "{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}" 
+                          
+                     
+                         RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
+                    Property=Height, Factor=0.4}" />
+
+
+                <StackLayout Margin="0,25" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="-40">
+
+                    <Frame BackgroundColor="White" HeightRequest="70" WidthRequest="70" CornerRadius="45" HasShadow="True"  BorderColor="RED" Margin="40,50,10,0" HorizontalOptions="Center" Padding="0">
+                        <Image Source="yorrr" Aspect="AspectFill" Margin="0"/>
+                    </Frame>
+
+                    <Frame BackgroundColor="White" HeightRequest="70" WidthRequest="70" CornerRadius="45" HasShadow="True" BorderColor="RED" Margin="40,50,10,0" HorizontalOptions="Center" Padding="0">
+                        <Image Source="https://i.ibb.co/HzMrqg6/loid.jpg" Aspect="AspectFill" Margin="0"/>
+                    </Frame>
+
+                    <Frame BackgroundColor="White" HeightRequest="70" WidthRequest="70" CornerRadius="45" HasShadow="True" BorderColor="RED" Margin="40,50,10,0"  HorizontalOptions="Center" Padding="0">
+                        <Image Source="https://i.ibb.co/4M2h6md/anya.jpg" Aspect="AspectFill" Margin="0"/>
+                    </Frame>
+                    
+                    
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="80,175,10,0">
+                    <Label Text="Welcome to Activity 06!" FontSize="Large" FontAttributes="Bold"  HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Padding="0" Margin="10,240,10,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" CornerRadius="30"  HeightRequest="350" HasShadow="True" Padding="0" Margin="0">
+
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/L0jTm5T/spy.jpg" Aspect="AspectFill" Margin="0" HeightRequest="350"/>
+
+                            <StackLayout Margin="0,25,0,0" Padding="0">
+                                <Grid>
+                                    <BoxView BackgroundColor="Transparent" HeightRequest="1" WidthRequest="150"  HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                                </Grid>
+                            </StackLayout>
+
+
+
+
+
+
+                        </StackLayout>
+
+                    </Frame>
+
+                    <StackLayout>
+
+                        <Button x:Name="BtnConnect" Text="CONNECT" BackgroundColor="#F4D9A8" TextColor="White" CornerRadius="30" Margin="7"></Button>
+
+                    </StackLayout>
+
+                    <ActivityIndicator IsRunning="{Binding IsBusy}" Color="RosyBrown" HorizontalOptions="Center"/>
+
+                </StackLayout>
+
+            </RelativeLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

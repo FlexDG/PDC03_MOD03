@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD3.activity5" BackgroundColor="#FCF6EB">
+    <ContentPage.Content>
+        <StackLayout>
+            <RelativeLayout>
+                <BoxView x:Name="Boxview1" Color="#FAE6C2" RelativeLayout.WidthConstraint=
+                         "{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1}" 
+                          
+                     
+                         RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
+                    Property=Height, Factor=0.3}" />
+              
+
+                <StackLayout Margin="0,25" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                   
+                    <Frame BackgroundColor="White" HeightRequest="70" WidthRequest="70" CornerRadius="45" HasShadow="False" BorderColor="RED" Margin="5" HorizontalOptions="Center" Padding="0">
+                        <Image Source="yorrr" Aspect="AspectFill" Margin="0"/>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="90"> 
+                <Label Text="Welcome to Activity 05!" FontSize="Large" FontAttributes="Bold"  HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Padding="0" Margin="10,170,10,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" CornerRadius="30"  HeightRequest="450" HasShadow="True" Padding="0" Margin="0">
+
+                        <StackLayout>
+                            <Image Source="yor" IsAnimationPlaying="True" Aspect="AspectFill" Margin="0"/>
+
+                            <StackLayout Margin="0,25,0,0" Padding="0">
+                                    <Grid>
+                                        <BoxView BackgroundColor="Transparent" HeightRequest="1" WidthRequest="150"  HorizontalOptions="Center" VerticalOptions="Center"/>
+                                       
+                                    </Grid>
+                                </StackLayout>
+
+                               
+
+
+
+
+                            </StackLayout>
+
+                    </Frame>
+                </StackLayout>
+
+            </RelativeLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

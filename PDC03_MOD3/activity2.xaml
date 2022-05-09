@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD3.activity2" BackgroundColor ="#E7D2E5">
+    <ContentPage.Content>
+        <StackLayout Margin="30" Spacing="40">
+
+
+            <Frame BorderColor="Black" Padding="10" CornerRadius ="20">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="Beige"> </BoxView>
+                    <Label Text="StackLayout" FontSize="Large" HorizontalOptions="Center"/>
+                    
+        </StackLayout>
+                
+        </Frame>
+
+            <Frame BorderColor="black" Padding="10" CornerRadius ="20">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="SkyBlue" CornerRadius="10" ></BoxView>
+                    <Label Text="Frame" FontSize="Large" HorizontalOptions="Center"/>
+
+                </StackLayout>
+
+            </Frame>
+
+
+            <Frame BorderColor="Black" Padding="10" CornerRadius ="20">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="LightCyan"  CornerRadius="10"></BoxView>
+                    <Label Text="Grid" FontSize="Large" HorizontalOptions="Center"/>
+
+                </StackLayout>
+
+            </Frame>
+
+
+            <Frame BorderColor="Black" Padding="10" CornerRadius ="20">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="LightGreen" CornerRadius="10"></BoxView>
+                    <Label Text="AbsoluteLayout" FontSize="Large" HorizontalOptions="Center"/>
+
+                </StackLayout>
+
+            </Frame>
+
+
+            <Frame BorderColor="Black" Padding="6" CornerRadius ="20">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="LightGoldenrodYellow" CornerRadius="10"></BoxView>
+                    <Label Text="RelativeLayout" FontSize="Large" HorizontalOptions="Center"/>
+                </StackLayout>
+
+            </Frame>
+
+            <Frame BorderColor="Black" Padding="6" CornerRadius ="20">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="LightGreen" CornerRadius="10"></BoxView>
+                    <Label Text="DisplayImage" FontSize="Large" HorizontalOptions="Center"/>
+                </StackLayout>
+
+            </Frame>
+
+            <Frame BorderColor="Black" Padding="10" CornerRadius ="20">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="Green" CornerRadius="10"></BoxView>
+                    <Label Text="End" FontSize="Large" HorizontalOptions="Center"/>
+
+                </StackLayout>
+
+            </Frame>
+
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
